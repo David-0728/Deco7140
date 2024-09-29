@@ -9,17 +9,17 @@ body {
 
 /* Header and Footer Styling */
 header, footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+    text-align: right;
+    padding: 10px 10px;
 }
 
 /* Navigation Bar Styling */
 nav {
-    background-color: #007BFF;
+    background-color: #474f56;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 nav a {
@@ -63,8 +63,8 @@ form {
 
 input, textarea {
     width: 100%;
-    padding: 8px;
-    margin: 10px 0;
+    padding: 1px;
+    margin: 1px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
