@@ -3,52 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/css_reset.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/component.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css_reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/component.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Page Title</title>
   </head>
   <body>
-
     <header>
-        <h1>My Portfolio Site</h1>
+      <h1>My Portfolio Site</h1>
+      <nav class="navbar">
+        <ul>
+          <a href="Project1.html" class="mx-1">Project 1</a>
+          <a href="Project 2" class="mx-1">Project 2</a>
+          <a href="Project 3" class="mx-1">Project 3</a>
+        </ul>
+      </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="Project1.html">Project1</a></li>
-            <li><a href="Project 2">Project2</a></li>
-            <li><a href="Project 3">Project3</a></li>
-        </ul>
-    </nav>
+    
 
     <main class="page-container">
+      <section>
+        <img src="img/apple.jpg" alt="Apple" width="100%" height="100%" />
+      </section>
 
-    <section>
-        <img src="img/apple.jpg" alt="Apple" width="100%" height="100%">
-    </section>
-
-    <section>
+      <section>
         <h2>Welcome to my website!</h2>
         <p>这是一个简短的介绍，展示了我们的网站和当前的业务。</p>
-    </section>
+      </section>
 
-    <section>
+      <section>
         <h2>我们的最新项目</h2>
         <div>
-            <img src="project1.jpg" alt="Project1" width="200">
-            <img src="project2.jpg" alt="Project2" width="200">
-            <img src="project3.jpg" alt="Project3" width="200">
+          <img src="project1.jpg" alt="Project1" width="200" />
+          <img src="project2.jpg" alt="Project2" width="200" />
+          <img src="project3.jpg" alt="Project3" width="200" />
         </div>
-    </section>
+      </section>
+
+      <div>
+        <div class="card"> 
+            <div class="card-content">
+                <h2 class="card-title">Give me some feedback!</h2>
+                <p class="card-text">I'd really like to hear your feedback!</p>
+        
+                <!-- Name Input -->
+                <input type="text" class="input-field" placeholder="Your Name">
+        
+                <!-- Comment Textarea -->
+                <textarea class="input-textarea" placeholder="Your Comment"></textarea>
+        
+                <!-- Submit Button -->
+                <button class="btn-action">Submit</button>
+            </div>
+        </div>
+        
+      </div>
+
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
   </body>
 </html>

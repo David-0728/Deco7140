@@ -14,7 +14,7 @@ h1 {
     font-weight: 200;
     margin-top: 0;
     margin-bottom: 0;
-    color:darkgrey;
+    color:rgb(255, 255, 255);
 }    
 
 h2 {
@@ -42,4 +42,26 @@ p {
     margin-top: 1%;
     margin-bottom: 1%;
     line-height: 1.2;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-1 {
+    margin-bottom: 1rem;
+}
+
+.float-right {
+    float: right;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.mx-1 {
+    margin-left: 1rem;
 }
