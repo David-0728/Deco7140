@@ -1,7 +1,6 @@
-let count = 0;
+export let count = 0;
 
-function increment(){
+export function increment(){
     count++;
 }
 
-export default { "count":count, "increment":increment};
