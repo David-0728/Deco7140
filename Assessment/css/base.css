@@ -1,0 +1,51 @@
+:root {
+    --MainColor:#1fc262;
+    --SecondaryColor:#02324d;
+    --ThirdColour:#dfe5da;
+}
+
+body {
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-size: 100%;
+    }
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color:#1fc262;
+    text-align: center;
+}    
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}    
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}    
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}   
+
+p {
+    font-size: 1.1rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    line-height: 1.2;
+}
+
+.mx-1 {
+    margin-left: 3rem;
+}
+
