@@ -1,0 +1,24 @@
+footer {
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #02324d;
+    padding-bottom: 1%; 
+    padding-top: 10px;  
+    align-items: flex-start; 
+}
+
+.footer-left {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.footer-right {
+    text-align: center; 
+    margin-top: 0; 
+    padding-top: 10px;
+}
+
+.footer-left, .footer-right {
+    width: 50%; 
+}
