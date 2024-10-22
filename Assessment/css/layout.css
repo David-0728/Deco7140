@@ -42,7 +42,6 @@ footer {
     text-align:left;
     margin-left: 10%;
     flex: 1;
-    grid-area: nav;
 }
 
 @media screen and (min-width: 600px) {
@@ -53,6 +52,7 @@ footer {
     .flexnavbar a {
         flex: none;
         
+        
     }
 
     #gridcontainer {
@@ -60,7 +60,7 @@ footer {
         height: 100vh;
     
         grid-template-areas: 
-        "header header ."
+        "header header header"
         "nav nav nav"
         "main main main"
         "foot foot foot";
