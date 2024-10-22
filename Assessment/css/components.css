@@ -1,32 +1,4 @@
-.flexnavbar {
-    background-color: #1fc262;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 0.5%;
-}
 
-.flexnavbar a {
-    color:#f9f6f6;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 0.1rem;
-    text-align:left;
-    margin-left: 10%;
-    flex: 1;
-}
-
-@media screen and (min-width: 600px) {
-    .flexnavbar {
-        justify-content: flex-start;
-    }    
-
-    .flexnavbar a {
-        flex: none;
-        
-    }
-}
 
 .main-img img {
     width: 100%;

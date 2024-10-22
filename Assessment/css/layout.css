@@ -5,6 +5,7 @@ footer {
     padding-bottom: 1%; 
     padding-top: 10px;  
     align-items: flex-start; 
+    grid-area: foot;
 }
 
 .footer-left {
@@ -22,3 +23,61 @@ footer {
 .footer-left, .footer-right {
     width: 50%; 
 }
+
+.flexnavbar {
+    background-color: #1fc262;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    padding: 0.5%;
+    grid-area: nav;
+}
+
+.flexnavbar a {
+    color:#f9f6f6;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+    text-align:left;
+    margin-left: 10%;
+    flex: 1;
+    grid-area: nav;
+}
+
+@media screen and (min-width: 600px) {
+    .flexnavbar {
+        justify-content: flex-start;
+    }    
+
+    .flexnavbar a {
+        flex: none;
+        
+    }
+
+    #gridcontainer {
+        display: grid;
+        height: 100vh;
+    
+        grid-template-areas: 
+        "header header ."
+        "nav nav nav"
+        "main main main"
+        "foot foot foot";
+    
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto 1fr auto;
+    }
+}
+
+
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+
