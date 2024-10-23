@@ -1,12 +1,12 @@
 footer {
     display: flex; 
     justify-content: space-between; 
-    background-color: #02324d;
-    padding-bottom: 1%; 
+    background: linear-gradient(to bottom, #dfe5da, #02324d);
+    padding-bottom: 0; 
     padding-top: 10px;  
     align-items: flex-start; 
     grid-area: foot;
-    color: #1fc262;
+    color: var(--SecondaryColor);
     position: relative;
 }
 
@@ -19,8 +19,6 @@ footer {
 .footer-right {
     margin-left: auto;
     margin-right: 20px;
-    margin-bottom: 0;
-    align-self: flex-end;
     text-align: right;   
 }
 

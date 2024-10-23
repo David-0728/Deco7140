@@ -44,3 +44,9 @@ input[type="submit"]:hover {
     background-color: #45a049;
     
 }
+
+.rounded-image {
+    border-radius: 15px;
+    width: 500px;
+    height: 400px;
+  }

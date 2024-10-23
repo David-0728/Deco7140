@@ -27,12 +27,16 @@
           <h2>Share Your Fitness Journey</h2>
           <form id="postForm">
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Your Username" required />
-
-
+            <input type="text" id="username" name="person_name" placeholder="Your Username" required />
+      
+            <label for="postTitle">Post Title:</label>
+            <input type="text" id="postTitle" name="chat_post_title" placeholder="Post Title" required />
+      
             <label for="postContent">Post Content:</label>
-            <textarea id="postContent" name="postContent" rows="4" placeholder="Share your thoughts..." required></textarea>
-
+            <textarea id="postContent" name="chat_post_content" rows="4" placeholder="Share your thoughts..." required></textarea>
+      
+            <input type="hidden" id="website_code" name="website_code" value="s4778459" />
+      
             <input type="submit" value="Post" />
           </form>
         </section>
@@ -46,7 +50,7 @@
               <!-- Post 1 -->
               <div class="post">
                 <div class="post-header">
-                  <img src="img/user1.jpg" alt="User 1" class="user-avatar" />
+                  <img src="img/fitness main.jpg" alt="User 1" class="user-avatar" />
                   <div class="user-info">
                     <h4>Jane Doe</h4>
                     <p>Posted on October 22, 2024</p>

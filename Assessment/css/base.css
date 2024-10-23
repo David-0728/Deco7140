@@ -30,7 +30,7 @@ h2 {
 }    
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 2%;
     margin-bottom: 2%;
 }    
@@ -102,7 +102,7 @@ h4 {
 }
 
 .feature {
-    background-color: #fff;
+    background-color: #f1ffef;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -118,4 +118,20 @@ h4 {
 
 .feature p {
     font-size: 1rem;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+
+}
+
+.note {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--SecondaryColor);
+    margin-bottom: 1.5rem;
+
 }
