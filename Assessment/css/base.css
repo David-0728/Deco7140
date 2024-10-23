@@ -7,6 +7,7 @@
 body {
     font-family: 'Raleway', 'Arial', sans-serif;
     font-size: 100%;
+    background-color: var(--ThirdColour);
     }
 
 h1 {
@@ -46,7 +47,7 @@ h4 {
     margin-left: 3rem;
 }
 
-.hero img {
+.running img {
     position: absolute;
     top: 0;
     left: 0;
@@ -54,9 +55,10 @@ h4 {
     height: 100%;
     object-fit: cover; 
     z-index: -1; 
+    filter: brightness(0.75);
 }
 
-.hero {
+.running {
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -66,12 +68,12 @@ h4 {
     font-weight: 800;
 }
 
-.hero-content h1 {
+.running-content h1 {
     font-size: 3rem;
     margin-bottom: 100px;
 }
 
-.hero-content p {
+.running-content p {
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
