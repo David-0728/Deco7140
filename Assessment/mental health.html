@@ -1,24 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-
-scale=1.0" />
-<title>Rhythmic Fitness</title>
-<link rel="stylesheet" href="css/css_reset.css" />
-<link rel="stylesheet" href="css/base.css" />
-<link rel="stylesheet" href="css/layout.css" />
-<link rel="stylesheet" href="css/components.css" />
-</head>
-<body>
-<header>
-<h1>Pete's assessment project page</h1>
-</header>
-<main>
-<p><a href="../index.html">Home</a></p>
-</main>
-<footer>
-<p>&copy; 2024 Your Name. All rights reserved.</p>
-</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mental Health - Rhythmic Fitness</title>
+    <link rel="stylesheet" href="css/css_reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <script type="module" src="js/components.js"></script>
+  </head>
+  <body>
+    <div id="gridcontainer">
+      <header>
+        <h1>Rhythmic Fitness</h1>
+        <nav class="flexnavbar">
+          <a href="index.html">Home</a>
+          <a href="community.html" class="mx-1">Community</a>
+          <a href="mental health.html" class="mx-1">Mental Health</a>
+          <a href="customized plan.html" class="mx-1">Customized Plan</a>
+          <a href="nutrition and health.html" class="mx-1"
+            >Nutrition and Health</a
+          >
+        </nav>
+      </header>
+
+      <main>
+        <section class="mental-health">
+          <h2>Mental Health & Meditation</h2>
+          <p>
+            Take care of your mental health with meditation, breathing exercises,
+            and stress management techniques.
+          </p>
+          <div class="feature">
+            <h3>Guided Meditation</h3>
+            <p>
+              Follow guided meditation sessions to relax your mind and improve
+              focus.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Breathing Exercises</h3>
+            <p>
+              Engage in deep breathing exercises to reduce stress and enhance
+              mental clarity.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer left">
+          <form id="contactForm">
+            <label for="person_name">Name:</label>
+            <input
+              type="text"
+              id="person_name"
+              name="person_name"
+              placeholder="Your Name"
+              maxlength="255"
+              required
+            />
+
+            <label for="chat_post_title">Title:</label>
+            <input
+              type="text"
+              id="chat_post_title"
+              name="chat_post_title"
+              placeholder="Post Title"
+              maxlength="255"
+              required
+            />
+
+            <label for="chat_post_content">Feedback:</label>
+            <textarea
+              id="chat_post_content"
+              name="chat_post_content"
+              rows="4"
+              placeholder="Please give us your feedback!"
+              required
+            ></textarea>
+            <input
+              type="hidden"
+              id="website_code"
+              name="website_code"
+              value="2dc2a6c5"
+            />
+            <input type="submit" value="Submit" />
+            <div id="submitResponse" aria-live="assertive"></div>
+          </form>
+        </div>
+
+        <div class="footer right">
+          <p>Ins: Rhythmic Fitness</p>
+          <p>TikTok: Rhythmic Fitness</p>
+          <p>Email: RhythmicFitness@gmail.com</p>
+          <p>&copy; 2024 Rhythmic Fitness. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
