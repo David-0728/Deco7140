@@ -3,21 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rhythmic Fitness</title>
+    <title>Nutrition and Health - Rhythmic Fitness</title>
     <link rel="stylesheet" href="css/css_reset.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/components.css" />
+    <script type="module" src="js/components.js"></script>
   </head>
   <body>
-    <header>
-      <h1>Pete's assessment project page</h1>
-    </header>
-    <main>
-      <p><a href="../index.html">Home</a></p>
-    </main>
-    <footer>
-      <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
+    <div id="gridcontainer">
+      <header>
+        <h1>Rhythmic Fitness</h1>
+        <nav class="flexnavbar">
+          <a href="index.html">Home</a>
+          <a href="community.html" class="mx-1">Community</a>
+          <a href="mental health.html" class="mx-1">Mental Health</a>
+          <a href="customized-plan.html" class="mx-1">Customized Plan</a>
+          <a href="nutrition and health.html" class="mx-1">Nutrition and Health</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="nutrition-overview">
+          <h2>Nutrition and Health</h2>
+          <p>Explore healthy recipes and personalized nutrition advice to complement your fitness goals.</p>
+
+          <div class="nutrition-recipes">
+            <div class="recipe">
+              <h3>High-Protein Salad</h3>
+              <img src="img/salad.jpg" alt="High Protein Salad" />
+              <p>A nutritious salad packed with lean protein, perfect for muscle recovery.</p>
+            </div>
+            <div class="recipe">
+              <h3>Energy Smoothie</h3>
+              <img src="img/smoothie.jpg" alt="Energy Smoothie" />
+              <p>Blend of fruits, protein powder, and chia seeds to give you an energy boost.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer left">
+          <p>Ins: Rhythmic Fitness</p>
+          <p>TikTok: Rhythmic Fitness</p>
+          <p>Email: RhythmicFitness@gmail.com</p>
+        </div>
+        <div class="footer right">
+          <p>&copy; 2024 Rhythmic Fitness. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
+
+

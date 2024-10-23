@@ -166,4 +166,49 @@ input[type="submit"]:hover {
     text-align: left;
   }
   
+  .customized-plan { 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: -1%;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    flex: 1;
+    margin-left: -100px;
+  }
 
+  .plan-selection {
+    display: flex;           
+    justify-content: space-between; 
+    gap: 20px;              
+    padding: 10px;
+  }
+  
+  .plan {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    flex: 1;                
+    text-align:center;
+    padding: 20px;
+    border: 1px solid #ccc;   
+    border-radius: 100%;       
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .plan:hover {
+    transform: scale(1.2);
+  }
+
+  .plan-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    color: white;
+    z-index: 1;
+  }
