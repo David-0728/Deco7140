@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/components.css" />
     <script type="module" src="js/community.js" defer></script>
+    <script src="js/components.js" defer></script>
   </head>
   <body>
     <div id="gridcontainer">
@@ -19,126 +20,174 @@
           <a href="community.html" class="mx-1">Community</a>
           <a href="mental-health.html" class="mx-1">Mental Health</a>
           <a href="customized-plan.html" class="mx-1">Customized Plan</a>
-          <a href="nutrition-and-health.html" class="mx-1">Nutrition and Health</a>
+          <a href="nutrition-and-health.html" class="mx-1"
+            >Nutrition and Health</a
+          >
         </nav>
       </header>
       <main>
+        <h2 class="mx-2">Post your life to community</h2>
         <section class="post-form">
-          <h2>Share Your Fitness Journey</h2>
           <form id="postForm">
             <label for="username">Username:</label>
-            <input type="text" id="username" name="person_name" placeholder="Your Username" required />
-      
+            <input
+              type="text"
+              id="username"
+              name="person_name"
+              placeholder="Your Username"
+              required
+            />
+
             <label for="postTitle">Post Title:</label>
-            <input type="text" id="postTitle" name="chat_post_title" placeholder="Post Title" required />
-      
+            <input
+              type="text"
+              id="postTitle"
+              name="chat_post_title"
+              placeholder="Post Title"
+              required
+            />
+
             <label for="postContent">Post Content:</label>
-            <textarea id="postContent" name="chat_post_content" rows="4" placeholder="Share your thoughts..." required></textarea>
-      
-            <input type="hidden" id="website_code" name="website_code" value="s4778459" />
-      
+            <textarea
+              id="postContent"
+              name="chat_post_content"
+              rows="4"
+              placeholder="Share your thoughts..."
+              required
+            ></textarea>
+
+            <input
+              type="hidden"
+              id="website_code"
+              name="website_code"
+              value="s4778459"
+            />
+
             <input type="submit" value="Post" />
           </form>
         </section>
 
         <section class="posts">
-          <h2>Community Posts</h2>
+          <h2 class="mx-2">Community Posts</h2>
           <div id="postList">
-            <section class="community-posts">
-              <h2>Community Posts</h2>
-            
-              <!-- Post 1 -->
-              <div class="post">
-                <div class="post-header">
-                  <img src="img/fitness main.jpg" alt="User 1" class="user-avatar" />
-                  <div class="user-info">
-                    <h4>Jane Doe</h4>
+            <!-- Post 1 -->
+            <div class="features-post">
+              <div class="feature-post">
+                <h4>Jane Doe</h4>
+                <img src="img/food.jpg" alt="User 1" class="user-avatar" />
+                <div class="user-info">
+                  <h4>Today's food</h4>
+                  <p>&nbsp;</p>
+        
+                  <div class="post-content">
+                    <p>
+                      I've been working out with the Rhythmic Fitness app for
+                      the past two months, and I've already seen amazing
+                      results! I'm more energetic and feel stronger than ever.
+                    </p>
+                    <p>&nbsp;</p>
                     <p>Posted on October 22, 2024</p>
-                  </div>
-                </div>
-                <div class="post-content">
-                  <p>
-                    I've been working out with the Rhythmic Fitness app for the past two
-                    months, and I've already seen amazing results! I'm more energetic and
-                    feel stronger than ever.
-                  </p>
-                </div>
-                <div class="post-actions">
-                  <a href="#" class="like">Like</a> | 
-                  <a href="#" class="comment">Comment</a>
-                </div>
-            
-                <!-- Comments Section -->
-                <div class="comments">
-                  <h5>Comments</h5>
-                  <div class="comment">
-                    <p><strong>John Smith:</strong> That's awesome, Jane! Keep up the great work.</p>
-                  </div>
-                  <div class="comment">
-                    <p><strong>Mary Lee:</strong> What's your workout routine like? I'd love to know more!</p>
-                  </div>
-                  <!-- Add a new comment -->
-                  <div class="add-comment">
-                    <input
-                      type="text"
-                      placeholder="Add a comment..."
-                      class="comment-input"
-                    />
-                    <button class="btn-comment">Post</button>
+        
+                    <div class="like-container">
+                      <button class="like-button heart-button">♡</button>
+                      <span class="like-count">0</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            
-              <!-- Post 2 -->
-              <div class="post">
-                <div class="post-header">
-                  <img src="img/user2.jpg" alt="User 2" class="user-avatar" />
-                  <div class="user-info">
-                    <h4>Michael Carter</h4>
-                    <p>Posted on October 21, 2024</p>
-                  </div>
-                </div>
-                <div class="post-content">
-                  <p>
-                    Just completed the 30-day challenge, and I'm feeling great! The community
-                    here has been really supportive throughout the journey.
-                  </p>
-                </div>
-                <div class="post-actions">
-                  <a href="#" class="like">Like</a> | 
-                  <a href="#" class="comment">Comment</a>
-                </div>
-            
-                <!-- Comments Section -->
-                <div class="comments">
-                  <h5>Comments</h5>
-                  <div class="comment">
-                    <p><strong>Emily Wang:</strong> Way to go, Michael! Keep pushing!</p>
-                  </div>
-                  <!-- Add a new comment -->
-                  <div class="add-comment">
-                    <input
-                      type="text"
-                      placeholder="Add a comment..."
-                      class="comment-input"
-                    />
-                    <button class="btn-comment">Post</button>
+            </div>
+        
+            <!-- Post 2 -->
+            <div class="features-post">
+              <div class="feature-post">
+                <h4>David Wang</h4>
+                <img src="img/food.jpg" alt="User 2" class="user-avatar" />
+                <div class="user-info">
+                  <h4>Today's food</h4>
+                  <p>&nbsp;</p>
+        
+                  <div class="post-content">
+                    <p>
+                      I've been working out with the Rhythmic Fitness app for
+                      the past two months, and I've already seen amazing
+                      results! I'm more energetic and feel stronger than ever.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>Posted on October 22, 2024</p>
+        
+                    <div class="like-container">
+                      <button class="like-button heart-button">♡</button>
+                      <span class="like-count">0</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </section>
-            
+            </div>
           </div>
         </section>
+        
       </main>
+
       <footer>
         <div class="footer left">
-          <p>&copy; 2024 Rhythmic Fitness. All rights reserved.</p>
+          <form id="contactForm">
+            <label for="person_name">Name:</label>
+            <input
+              type="text"
+              id="person_name"
+              name="person_name"
+              placeholder="Your Name"
+              maxlength="255"
+              required
+            />
+
+            <label for="email">Your Email:</label>
+            <input
+              type="email"
+              id="chat_post_title"
+              name="chat_post_title"
+              placeholder="Post Title"
+              maxlength="255"
+              required
+            />
+
+            <label for="chat_post_content">Feedback:</label>
+            <textarea
+              id="chat_post_content"
+              name="chat_post_content"
+              rows="4"
+              placeholder="Please give us your feedback!"
+              required
+            ></textarea>
+            <input
+              type="hidden"
+              id="website_code"
+              name="website_code"
+              value="2dc2a6c5"
+            />
+            <input type="submit" value="Submit" />
+          </form>
         </div>
+
         <div class="footer right">
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
           <p>Ins: Rhythmic Fitness</p>
           <p>TikTok: Rhythmic Fitness</p>
-          <p>Email: RhythmicFitness@gmail.com</p>
+          <p>Email: Rhythmic Fitness@gmail.com</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+
+          <p>&copy; 2024 Daiwei Wang. All rights reserved.</p>
         </div>
       </footer>
     </div>
